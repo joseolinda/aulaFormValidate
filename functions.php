@@ -1,4 +1,4 @@
-<?pp
+<?php
 
 function __e($input)
 {
