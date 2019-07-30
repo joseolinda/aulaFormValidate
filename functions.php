@@ -18,3 +18,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $mostrarMensagem = true;
 }
+
+
+function exibirMensagem()
+{
+    echo "<h2>Sua mensagem:</h2>";
+    echo $nome;
+    echo "<br>";
+    echo $email;
+    echo "<br>";
+    echo $tipo_mensagem;
+    echo "<br>";
+    echo $mensagem;
+    echo "<br>";
+    echo $sexo;
+}
